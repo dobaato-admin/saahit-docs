@@ -53,3 +53,27 @@ def setup(app):
 html_theme = 'alabaster'
 html_static_path = ['_static']
 html_baseurl = 'https://dobaato-admin.github.io/saahit-docs/'
+html_css_files = [
+    'alabaster.css',
+    'basic.css',
+    'custom.css',
+    'pygments.css',
+]
+html_theme_options = {
+    'sidebar_width': '300px',
+    'page_width': '1200px',
+    'github_user': 'dobaato-admin',
+    'github_repo': 'saahit-docs',
+    'github_button': True,
+    'github_type': 'star',
+    'extra_nav_links': {
+        'Project Home': 'https://dobaato-admin.github.io/saahit-docs/',
+    },
+}
+html_js_files = [
+    'doctools.js',
+    'documentation_options.js',
+    'language_data.js',
+    'searchtools.js',
+    'sphinx_highlight.js',
+]
