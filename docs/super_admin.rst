@@ -8,6 +8,7 @@ Subpackages
    :maxdepth: 4
 
    super_admin.utils
+   super_admin.callbacks
 
 Submodules
 ----------

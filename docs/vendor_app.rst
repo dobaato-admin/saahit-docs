@@ -29,6 +29,7 @@ vendor\_app.vendor\-app module
    :undoc-members:
    :show-inheritance:
 
+
 Module contents
 ---------------
 
